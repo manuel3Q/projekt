@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Sossta's Board</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; }
+        .container { width: 800px; margin: 20px auto; }
+        .header { display: flex; justify-content: space-between; }
+        .card { background: white; padding: 15px; margin-top: 10px; border-radius: 8px; }
+        .question-title { font-size: 18px; font-weight: bold; }
+        .ask-btn { padding: 10px; background: #333; color: white; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="kont">
+
+    <div class="header">
+        <h1>Ssosta's Board</h1>
+        <a href="#" class="ask-btn">Opýtať sa</a>
+    </div>
+
+    <!-- Príklad -->
+    <div class="karta">
+        <div class="question-title">Ako vyriešim tento príklad??</div>
+        <p>Nerozumiem kvadratickým rovniciam...</p>
+    </div>
+
+    <div class="karta">
+        <div class="question-title">Ako sa počítajú kirchhoffove zákony</div>
+        <p>Vie mi to niekto vysvetliť? Jednoducho prosím</p>
+    </div>
+
+</div>
+
+</body>
+</html>
