@@ -5,8 +5,8 @@
     <title>Vytvorenie účtu</title>
     <style>
         body { font-family: Arial; background: #f4f4f4; }
-        .container { width: 300px; margin: 100px auto; }
-        .card { background: white; padding: 20px; border-radius: 8px; }
+        .kont { width: 300px; margin: 100px auto; }
+        .karta { background: white; padding: 20px; border-radius: 8px; }
         input { width: 100%; padding: 10px; margin: 5px 0; }
         button { width: 100%; padding: 10px; background: #333; color: white; border: none; }
         a { display: block; margin-top: 10px; text-align: center; }

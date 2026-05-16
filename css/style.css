@@ -1,0 +1,71 @@
+:root {
+    --clr-bg: #0f1117;
+    --clr-surface: #181c27;
+    --clr-surface2: #1e2334;
+    --clr-border: #2a2f45;
+    --clr-accent: #f0b429;
+    --clr-accent2: #e05c2a;
+    --clr-text: #e8eaf0;
+    --clr-muted: #7a8099;
+    --clr-success: #2ecc71;
+    --clr-danger: #e74c3c;
+    --radius: 10px;
+    --radius-lg: 16px;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --shadow: 0 4px 24px rgba(0,0,0,0.35);
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    background-color: var(--clr-bg);
+    background-image:
+        radial-gradient(ellipse 60% 40% at 80% 10%, rgba(240,180,41,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 30% at 10% 90%, rgba(224,92,42,0.06) 0%, transparent 60%);
+    color: var(--clr-text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.65;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgba(15,17,23,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--clr-border);
+    padding: 0.9rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.brand-icon {
+    width: 36px; height: 36px;
+    background: var(--clr-accent);
+    color: #0f1117;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+}
+
+.brand-text {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--clr-text);
+    letter-spacing: -0.02em;
+}
+
+/* Dokoncit

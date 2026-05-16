@@ -5,9 +5,9 @@
     <title>Sossta's Board</title>
     <style>
         body { font-family: Arial; background: #f4f4f4; }
-        .container { width: 800px; margin: 20px auto; }
+        .kont { width: 800px; margin: 20px auto; }
         .header { display: flex; justify-content: space-between; }
-        .card { background: white; padding: 15px; margin-top: 10px; border-radius: 8px; }
+        .karta { background: white; padding: 15px; margin-top: 10px; border-radius: 8px; }
         .question-title { font-size: 18px; font-weight: bold; }
         .ask-btn { padding: 10px; background: #333; color: white; text-decoration: none; }
     </style>
@@ -22,7 +22,6 @@
         <a href="#" class="ask-btn">Opýtať sa</a>
     </div>
 
-    <!-- Príklad -->
     <div class="karta">
         <div class="question-title">Ako vyriešim tento príklad??</div>
         <p>Nerozumiem kvadratickým rovniciam...</p>
