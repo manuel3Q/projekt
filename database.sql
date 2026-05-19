@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- testing email=test@skola.sk a heslo=heslo123
 INSERT INTO users (name, email, password_hash) VALUES
-('test', 'test@skola.sk', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'),
+('test', 'test@skola.sk', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
 
 -- Tabulka otazky
 CREATE TABLE IF NOT EXISTS questions (

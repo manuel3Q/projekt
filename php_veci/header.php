@@ -22,7 +22,7 @@ if (!function_exists('isLoggedIn')) {
     <div class="kont">
         <a class="navbar-brand" href="/projekt/index.php">
             <span class="brand-icon">?</span>
-            <span class="brand-text">Q&amp;A<span class="brand-accent">Ssosta's Board</span></span>
+            <span class="brand-text">Q&amp;A<span class="brand-accent"> Ssosta's Board</span></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>

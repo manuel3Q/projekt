@@ -4,7 +4,7 @@
     <div class="kont">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <span class="footer-brand">Q&amp;A<span>Ssosta's Board</span></span>
+                <span class="footer-brand">Q&amp;A<span> Ssosta's Board</span></span>
             </div>
             <div class="col-md-6 text-md-end mt-2 mt-md-0">
             </div>
