@@ -81,4 +81,12 @@ if (!function_exists('isLoggedIn')) {
 
 <main class="container py-4">
 
-# pridat upozornenia?
+<?php
+$flash = getFlash();
+if ($flash): ?>
+    <div class="alert alert-<?= $flash['type'] === 'success' ? 'success' : 'danger' ?> alert-dismissible fade show flash-alert" role="alert">
+        <i class="bi bi-<?= $flash['type'] === 'success' ? 'check-circle' : 'exclamation-triangle' ?> me-2"></i>
+        <?= clean($flash['message']) ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+<?php endif; ?>
